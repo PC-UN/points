@@ -21,6 +21,7 @@ gem 'puma', '~> 3.7'
 
 gem 'therubyracer', :platforms => :ruby
 gem 'execjs'
+gem 'ransack'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
