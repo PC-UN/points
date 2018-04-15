@@ -5,7 +5,7 @@ class PointsController < ApplicationController
   def index
     @points = Point.ransack(params[:q])
 
-    render json: @points
+    render json: @points.result
   end
 
   # GET /points/1
