@@ -8,3 +8,5 @@ ADD Gemfile.lock /points_ms/Gemfile.lock
 
 RUN bundle install
 ADD . /points_ms
+
+EXPOSE 3301
